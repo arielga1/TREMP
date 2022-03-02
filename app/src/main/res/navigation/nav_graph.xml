@@ -11,7 +11,7 @@
         android:label="fragment_home2"
         tools:layout="@layout/activity_home2" >
         <action
-            android:id="@+id/action_home2_to_profile2"
+            android:id="@+id/action_home2_to_profile"
             app:destination="@id/profile" />
         <action
             android:id="@+id/action_home2_to_tremps"
@@ -20,7 +20,7 @@
             android:id="@+id/action_home2_to_data"
             app:destination="@id/data" />
         <action
-            android:id="@+id/action_home2_to_map2"
+            android:id="@+id/action_home2_to_map"
             app:destination="@id/map" />
     </fragment>
     <fragment
