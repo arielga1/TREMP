@@ -1,0 +1,54 @@
+<resources>
+    <string name="app_name">TREMP</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="hi_we_re_tremp">Hi, we\'re TREMP!</string>
+    <string name="slogan"><![CDATA[We make getting around your city \n affordable, easy & efficient]]></string>
+    <string name="phone_field">Enter phone number</string>
+    <string name="password_field">Enter password</string>
+    <string name="remember_me">remember me</string>
+    <string name="forget_password">forget password ?</string>
+    <string name="login">Login</string>
+    <string name="create_account">Create Account</string>
+    <string name="enter_first_name">Enter first name</string>
+    <string name="enter_last_name">enter last name</string>
+    <string name="enter_email">Enter email</string>
+    <string name="enter_password">Enter password</string>
+    <string name="confirm_password">Confirm password</string>
+    <string name="reset_password">Reset Password</string>
+    <string name="forgot_password_details">provide your account\'s email for which you want to reset your password</string>
+    <string name="forget_npassword">Forget\nPassword</string>
+    <string name="sign_up">Sign up</string>
+    <string name="title_activity_drawer">DrawerActivity</string>
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+    <string name="nav_header_title">Android Studio</string>
+    <string name="nav_header_subtitle">android.studio@android.com</string>
+    <string name="nav_header_desc">Navigation header</string>
+    <string name="action_settings">Settings</string>
+
+    <string name="menu_home">Home</string>
+    <string name="menu_gallery">Gallery</string>
+    <string name="menu_slideshow">Slideshow</string>
+    <string name="view_profile">View Profile</string>
+    <string name="inbox">Inbox</string>
+    <string name="history">History</string>
+    <string name="terms_and_condition">Terms and Condition</string>
+    <string name="about_tremp">About TREMP</string>
+    <string name="title_activity_menu">Menu</string>
+    <!-- Strings used for fragments for navigation -->
+    <string name="first_fragment_label">First Fragment</string>
+    <string name="second_fragment_label">Second Fragment</string>
+    <string name="next">Next</string>
+    <string name="previous">Previous</string>
+
+    <string name="hello_first_fragment">Hello first fragment</string>
+    <string name="hello_second_fragment">Hello second fragment. Arg: %1$s</string>
+    <string name="title_activity_driver_map">DriverMapActivity</string>
+    <string name="title_activity_maps">MapsActivity</string>
+    <string name="email"><u>Email</u>:</string>
+    <string name="password"><u>Password</u>:</string>
+    <string name="phone"><u>Phone</u>:</string>
+
+    <string name="api_key">AIzaSyB6S90ORLssSr0lbJXIiiA0tylBDUX8Vso</string>
+</resources>

@@ -1,0 +1,68 @@
+{
+  "project_info": {
+    "project_number": "383483491324",
+    "project_id": "tremp-project",
+    "storage_bucket": "tremp-project.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:383483491324:android:2a1005e42cbf4b2556b879",
+        "android_client_info": {
+          "package_name": "com.ariel.tremp"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "383483491324-g16hu4fbkartq1d9j6dsdr5fb5smdmr0.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAEALkTRBKwal19OppVgCwj85iV8i_UaNQ"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "383483491324-g16hu4fbkartq1d9j6dsdr5fb5smdmr0.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:383483491324:android:85e36ab4a543078956b879",
+        "android_client_info": {
+          "package_name": "com.example.tremp_app"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "383483491324-g16hu4fbkartq1d9j6dsdr5fb5smdmr0.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAEALkTRBKwal19OppVgCwj85iV8i_UaNQ"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "383483491324-g16hu4fbkartq1d9j6dsdr5fb5smdmr0.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
