@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/nav_graph"
+    app:startDestination="@id/home2">
+
+    <fragment
+        android:id="@+id/home2"
+        android:name="com.ariel.tremp.Home2"
+        android:label="fragment_home2"
+        tools:layout="@layout/activity_home2" >
+        <action
+            android:id="@+id/action_home2_to_profile2"
+            app:destination="@id/profile" />
+        <action
+            android:id="@+id/action_home2_to_tremps"
+            app:destination="@id/tremps" />
+        <action
+            android:id="@+id/action_home2_to_data"
+            app:destination="@id/data" />
+        <action
+            android:id="@+id/action_home2_to_map2"
+            app:destination="@id/map" />
+    </fragment>
+    <fragment
+        android:id="@+id/main"
+        android:name="com.ariel.tremp.Main"
+        android:label="fragment_main"
+        tools:layout="@layout/activity_main" >
+        <action
+            android:id="@+id/action_main_to_signIn"
+            app:destination="@id/signIn" />
+        <action
+            android:id="@+id/action_main_to_login"
+            app:destination="@id/login" />
+    </fragment>
+    <fragment
+        android:id="@+id/signIn"
+        android:name="com.ariel.tremp.SignIn"
+        android:label="fragment_sign_in"
+        tools:layout="@layout/activity_sign_up" >
+        <action
+            android:id="@+id/action_signIn_to_home2"
+            app:destination="@id/home2" />
+    </fragment>
+    <fragment
+        android:id="@+id/login"
+        android:name="com.ariel.tremp.Login"
+        android:label="fragment_login"
+        tools:layout="@layout/activity_login" >
+        <action
+            android:id="@+id/action_login_to_home2"
+            app:destination="@id/home2" />
+    </fragment>
+    <fragment
+        android:id="@+id/profile"
+        android:name="com.ariel.tremp.Profile"
+        android:label="fragment_profile"
+        tools:layout="@layout/activity_profile" />
+    <fragment
+        android:id="@+id/tremps"
+        android:name="com.ariel.tremp.Tremps"
+        android:label="fragment_tremps"
+        tools:layout="@layout/activity_tremps" />
+    <fragment
+        android:id="@+id/data"
+        android:name="com.ariel.tremp.Data"
+        android:label="fragment_data"
+        tools:layout="@layout/date_dialog" />
+    <fragment
+        android:id="@+id/map"
+        android:name="com.ariel.tremp.Map"
+        android:label="fragment_map"
+        tools:layout="@layout/activity_maps" />
+</navigation>
